@@ -10,8 +10,7 @@ let time = Number(TimeInput.value);
 
 let Volume = flowrate * time;
 let BetterVolume = flowrate * (time - time * 0.75);
-VolumeText.innerText = `${Math.round(Volume.toFixed(4)} liters. Did you know if you only used your tap for around ${Math.round(time.toFixed(4) * 0.75} minutes you could have saved about ${Math.round((Volume - BetterVolume).toFixed(4)} Liters?`;
-
+VolumeText.innerText = `${Volume.toFixed(4)} liters. Did you know if you only used your tap for around ${(time * 0.75)} minutes you could have saved about ${(Volume - BetterVolume).toFixed(4)} liters?`;
 }
 //applies the standard Frisco tap flow rate 
 function FriscoFlowRateTap(){
