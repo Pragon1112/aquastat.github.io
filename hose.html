@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AquaStat</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div>
+    <h1 title="PLEASE GIVE ME 100">Water usage calculator for hose</h1>
+</div>
+
+<label>flow rate(liters per minute)</label> <input id="FlowRateBox" placeholder="Enter A Number"><br>
+
+<label>time taken(minutes)</label> <input id="TimeBox" placeholder="Enter A Number"><br>
+
+<button onclick="calculate()">calculate</button><br>
+<button onclick="FriscoFlowRateHose()">use Frisco Standard Flow Rate</button>
+
+<h2 id="volume">Volume will show up here</h2>
+
+<button onclick="clearCalculator()">clear</button>
+
+<a href="home page.html">
+    <button>back</button>
+</a>
+
+
+<script src="mathing.js"></script>
+</body>
+</html>

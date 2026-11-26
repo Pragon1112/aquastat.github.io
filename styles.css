@@ -1,0 +1,37 @@
+body{
+    background-image: url(water2.jpg);
+    background-size: cover;
+    color:rgb(156, 182, 198);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+input{
+    background-color: rgb(156, 182, 198);
+    color: white;
+    border-color: transparent;
+    border-radius: 100px;
+    font-family: 'Courier New', Courier, monospace;
+}
+input:hover{
+    background-color: rgb(26, 68, 94) ;
+}
+button{
+    color: white;
+    background-color: rgb(156, 182, 198) ;
+    font-size: 1em;
+    margin: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 50px;
+}
+button:hover{
+    background-color: rgb(26, 68, 94) ;
+}
+h2{
+    font-size: 1em;
+}
+#volume:hover{
+    color: rgb(255, 0, 0);
+}
